@@ -1,0 +1,30 @@
+.navbar .container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: auto;
+  padding: 0px;
+
+  padding-bottom: 10px;
+}
+.navbar h5 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+.navbar h5 span {
+  font-weight: 600;
+}
+.navbar .dropdown-profile {
+  direction: ltr;
+  background: transparent;
+}
+.navbar .dropdown-profile .dropdown-toggle,
+.navbar .dropdown-profile .dropdown-toggle:hover {
+  background: transparent;
+  border: 0px;
+  color: black;
+  padding: 0px;
+}
+body.LightOff .navbar {
+  border-bottom: 1px solid rgba(26, 39, 53, 1);
+}

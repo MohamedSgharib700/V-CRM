@@ -1,0 +1,82 @@
+.list-offer-outside {
+  margin-top: 30px;
+  .fillter-list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    span {
+      background: rgba(235, 244, 255, 1);
+
+      font-size: 16px;
+      padding: 10px;
+      margin-left: 10px;
+      border-radius: 11px;
+      -webkit-border-radius: 11px;
+      color: rgba(17, 44, 77, 1);
+
+      -moz-border-radius: 11px;
+      -ms-border-radius: 11px;
+      -o-border-radius: 11px;
+    }
+    li.active,
+    li:hover {
+      span {
+        background: rgba(0, 78, 170, 1);
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .List {
+    .card {
+      height: 100%;
+      img {
+        width: auto;
+        object-fit: contain;
+        display: block;
+        margin: 50px auto;
+      }
+      .card-title {
+        background: rgba(255, 166, 128, 0.15);
+        color: rgba(178, 79, 36, 1);
+        padding: 0px 5px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        width: max-content;
+        margin: 10px;
+      }
+      .footer-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        span {
+          background: rgba(0, 78, 170, 0.1);
+          color: rgba(0, 78, 170, 1);
+          padding: 0px 5px;
+          border-radius: 8px;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+        }
+        h6 {
+          font-size: 19px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+body.LightOff .list-offer-outside {
+  .List .card {
+    .footer-card span,
+    .card-title {
+      background: rgb(26, 39, 53);
+      color: white;
+    }
+  }
+}

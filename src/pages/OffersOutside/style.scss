@@ -1,0 +1,19 @@
+.offer-outside .container {
+  width: 75%;
+  margin: 20px auto;
+  .title {
+    color: rgba(20, 58, 102, 1);
+  }
+  .fillter {
+    border-bottom: 0px;
+  }
+}
+body.LightOff .offer-outside .container {
+  .card {
+    background: rgba(26, 39, 53, 1);
+  }
+
+  .title {
+    color: white;
+  }
+}

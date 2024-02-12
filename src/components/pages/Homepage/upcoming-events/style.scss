@@ -1,0 +1,54 @@
+.upcoming-events {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+
+  h3 {
+    color: rgba(28, 123, 128, 1);
+    padding-bottom: 10px;
+  }
+  h3 img {
+    padding-left: 10px;
+    vertical-align: baseline;
+  }
+  .row > div .content {
+    background: rgba(232, 254, 255, 1);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 10px solid rgba(172, 229, 232, 1);
+    border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px;
+    -ms-border-radius: 0px 10px 10px 0px;
+    -o-border-radius: 0px 10px 10px 0px;
+  }
+  .row > div .content h5 {
+    font-size: 22px;
+  }
+  .row > div .content .card {
+    width: 70%;
+    height: 111px;
+    padding: 8px;
+  }
+
+  .row > div .content .card img {
+    margin-left: 10px;
+  }
+}
+body.LightOff .upcoming-events {
+  border-bottom: 1px solid rgba(26, 39, 53, 1);
+  h3 {
+    color: rgba(0, 201, 212, 1);
+  }
+  .row > div .content {
+    box-shadow: 2px 8px 15px 0px rgba(0, 0, 0, 0.03);
+    background: rgba(26, 39, 53, 1);
+    .card {
+      background: linear-gradient(0deg, #131c26, #131c26),
+        linear-gradient(0deg, #131c26, #131c26);
+    }
+    color: white;
+  }
+}

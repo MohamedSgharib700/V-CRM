@@ -1,0 +1,41 @@
+.fillter {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  .fillter-icon,
+  .fillter-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fillter-list {
+    justify-content: start;
+    span {
+      background: rgba(235, 244, 255, 1);
+
+      font-size: 16px;
+      padding: 10px;
+      margin-left: 10px;
+      border-radius: 11px;
+      -webkit-border-radius: 11px;
+      color: rgba(17, 44, 77, 1);
+
+      -moz-border-radius: 11px;
+      -ms-border-radius: 11px;
+      -o-border-radius: 11px;
+    }
+    li.active,
+    li:hover {
+      span {
+        background: rgba(0, 78, 170, 1);
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+body.LightOff .fillter {
+  img {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+  }
+}

@@ -1,0 +1,208 @@
+.list-events {
+  margin-top: 30px;
+  .fillter-list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    span {
+      background: rgba(235, 244, 255, 1);
+
+      font-size: 16px;
+      padding: 10px;
+      margin-left: 10px;
+      border-radius: 11px;
+      -webkit-border-radius: 11px;
+      color: rgba(17, 44, 77, 1);
+
+      -moz-border-radius: 11px;
+      -ms-border-radius: 11px;
+      -o-border-radius: 11px;
+    }
+    li.active,
+    li:hover {
+      span {
+        background: rgba(0, 78, 170, 1);
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .List {
+    .card {
+      height: 100%;
+      width: 107%;
+      img {
+        width: 220px;
+        height: 220px;
+        border-radius: 8px;
+        display: block;
+        margin: 10px auto;
+      }
+      .card-title {
+        background: rgba(128, 255, 251, 0.15);
+        color: rgb(36, 178, 178);
+        padding: 0px 5px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        width: max-content;
+        margin: 10px;
+      }
+      .footer-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        span {
+          background: rgba(0, 78, 170, 0.1);
+          color: rgba(0, 78, 170, 1);
+          padding: 0px 5px;
+          border-radius: 8px;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+        }
+        h6 {
+          font-size: 19px;
+          font-weight: 600;
+        }
+        h5 {
+          font-size: 15px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+body.LightOff .list-offer-inside {
+  .List .card {
+    .footer-card span,
+    .card-title {
+      background: rgb(15 19 23);
+      color: white;
+    }
+  }
+}
+  .div {
+    overflow: hidden;
+    max-width: 754px;
+    padding: 46px 42px;
+  }
+  @media (max-width: 991px) {
+    .div {
+      padding: 0 20px;
+    }
+  }
+  .div-2 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 40%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .img {
+    aspect-ratio: 3.03;
+    object-fit: auto;
+    object-position: center;
+    width: 130px;
+    max-width: 100%;
+    flex-grow: 1;
+  }
+  @media (max-width: 991px) {
+    .img {
+      margin-top: 40px;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 60%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-3 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 11px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      margin-top: 40px;
+    }
+  }
+  .div-4 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Tajawal, sans-serif;
+    border-radius: 10px;
+    background-color: #143a66;
+    justify-content: center;
+    color: #fff;
+    white-space: nowrap;
+    padding: 13px 27px;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-5 {
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 12px 16px 12px 75px;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      padding-left: 20px;
+    }
+  }
+  .div-6 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Tajawal, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 18px;
+    align-self: start;
+  }
+
+
+

@@ -1,0 +1,45 @@
+header {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  .content {
+    h5 {
+      color: rgba(124, 36, 178, 1);
+    }
+    .header-page .content {
+      position: relative;
+    }
+    .header-page {
+      .content .img-header {
+        height: 350px;
+        width: 100%;
+      }
+      .content .title-header {
+        background: rgba(255, 255, 255, 0.6);
+        color: rgba(20, 58, 102, 1);
+        position: absolute;
+        bottom: 10px;
+        font-size: 22px;
+        padding: 20px 10px;
+        width: 100%;
+      }
+      .card {
+        .link-social {
+          position: relative;
+        }
+        .link-social {
+          position: absolute;
+          right: -15px;
+          background: white;
+          padding: 10px;
+          border-radius: 100%;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          -ms-border-radius: 100%;
+          -o-border-radius: 100%;
+          top: 40%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.offer-inside .container {
+  width: 75%;
+  margin: 20px auto;
+  .title {
+    color: rgba(20, 58, 102, 1);
+  }
+}
+body.LightOff .offer-inside .container {
+  .card {
+    background: rgba(26, 39, 53, 1);
+  }
+  .title {
+    color: white;
+    img {
+      filter: invert(1);
+      -webkit-filter: invert(1);
+    }
+  }
+}

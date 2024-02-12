@@ -1,0 +1,126 @@
+.my-reminders {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.my-reminders h3 {
+  color: rgba(178, 79, 36, 1);
+  padding-bottom: 10px;
+}
+.my-reminders h3 img {
+  padding-left: 10px;
+  vertical-align: baseline;
+}
+.my-reminders .row > div .content {
+  background: rgba(229, 241, 255, 1);
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.my-reminders .row > div .content h5 {
+  text-align: center;
+  padding: 26px 10px;
+}
+
+.my-reminders .row > div .content {
+  background: rgba(254, 237, 230, 1);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 10px 10px 0px;
+  -ms-border-radius: 0px 10px 10px 0px;
+  -o-border-radius: 0px 10px 10px 0px;
+  text-align: right;
+}
+.my-reminders .row > div .content h5 {
+  font-size: 22px;
+  text-align: right;
+}
+.my-reminders .row > div .content .card {
+  width: 70%;
+  height: 111px;
+  padding: 8px;
+}
+
+.my-reminders .row > div .content .card img {
+  margin-left: 10px;
+}
+
+.my-reminders .row > div .email-message span {
+  font-weight: 600;
+}
+.my-reminders .row > div .content .Date {
+  padding: 0px;
+}
+.my-reminders .row > div .content .Date li {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.my-reminders .row > div .content .Date li p {
+  font-size: 15px;
+  line-height: 1;
+}
+.my-reminders .row > div .content .Date li span {
+  font-weight: 600;
+}
+
+.my-reminders .row > div .content .Date li button {
+  background: black;
+  border: 0px;
+  padding: 2px 10px;
+  margin: 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: white;
+}
+
+.my-reminders .row > div .content .List li input {
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+.my-reminders .row > div .content .List li input:checked + label {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.my-reminders .row > div .email-message {
+  text-align: center;
+  background: #feede6;
+  height: 325px;
+  padding: 20% 0px 0px;
+  margin: 11px 0px 0px;
+  border-radius: 8px;
+}
+
+.my-reminders .row > div .email-message p {
+  text-align: center;
+}
+body.LightOff {
+  .my-reminders {
+    .row > div {
+      .email-message,
+      .content {
+        background: rgba(26, 39, 53, 1);
+        .card {
+          background: linear-gradient(0deg, #131c26, #131c26),
+            linear-gradient(0deg, #131c26, #131c26);
+        }
+      }
+    }
+    img {
+      filter: invert(1);
+    }
+  }
+}
